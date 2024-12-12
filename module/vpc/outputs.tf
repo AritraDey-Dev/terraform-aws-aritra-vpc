@@ -1,6 +1,6 @@
 #VPC
 output "vpc_id" {
-  value = aws_vpc.name.id
+  value = aws_vpc.main.id
 }
 
 locals {
